@@ -1,0 +1,39 @@
+.admin_product_title{
+    font-size: var(--head);
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  line-height: 1;
+  margin: 0.6em 0.5em 0.7em 0.5em;
+}
+
+.admin_btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin_add{
+    width:50%;
+    margin:0.8em 0 1em 0;
+    background-color: var(--darkGreen);
+    color: var(--white);
+    border: 0;
+    border-radius: 0.7em;
+    outline: none;
+    cursor: pointer;
+    padding:0.6em;
+}
+.imgContainer{
+    margin-left: 0.8em;
+}
+/* .admin_text_area{
+    margin-left:7.8em;
+    margin-top:-3em;
+
+} */
+.admin_lbl{
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+  color: var(--gray);
+  font-weight: 500;
+}

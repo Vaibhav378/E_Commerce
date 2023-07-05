@@ -1,0 +1,90 @@
+.footerContainer{
+     display: flex;
+    background-color:var(--white);
+
+}
+
+.LEFT{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em 1.2em 0 1em;
+    margin-left: 0.6em;
+}
+  
+ .Desc{
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+  color: var(--gray);
+  font-weight: 500;
+    margin: 20px 0px;
+    color:var(--darkGreen);
+
+ }
+  
+ .SocialContainer{
+    display: flex;
+ }
+  
+ .SocialIcon
+ {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.2em;
+ }
+ .fb{
+    background-color:#3B5999;
+ }
+ 
+ .ig{
+    background-color:#E4405F;
+ }
+ 
+ .tw{
+    background-color:#55ACEE;
+ }
+ 
+ .pt{
+    background-color:#E60023;
+ }
+ 
+
+
+.Center{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.2em 1.2em 0 1em;
+}
+  
+  ul{
+    margin: 0;
+    margin-left: -14px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li{
+    width: 50%;
+    margin-bottom: 10px;
+    color:var(--darkGreen);
+  }
+  .Right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em 1.2em 0 1em;
+    margin-left:1.2em;
+  }
+  
+.ContactItem{
+    margin-bottom: 20px;
+    align-items: center;
+    color:var(--darkGreen);
+}

@@ -1,0 +1,11 @@
+ .cartContainer {
+    /* background: linear-gradient(
+      to right,
+      rgba(106, 17, 203, 1),
+      rgba(37, 117, 252, 1)
+    ); */
+
+    background-color:hsl(30, 38%, 92%);
+    height:100vh;
+
+  } 

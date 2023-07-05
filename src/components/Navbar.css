@@ -1,0 +1,123 @@
+.nav {
+    color:var(--darkGreen);
+    background-color:var(--white);
+  }
+  .nav-container a:hover {
+    border-color: #3aafa9;
+  }
+  div.nav-container> a:first-child {
+    color:var(--darkGreen);
+    margin:0;
+    text-decoration: none;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+   
+   ul {
+    list-style: none;
+  }
+
+  .navbar_search{
+    width:22em;
+    margin-left: 4.2em;
+    /* border: 0.2em solid black; */
+  }
+
+  
+  
+  .links a:hover {
+    border-color: #3aafa9;
+  }
+  .links a {
+    border-bottom: 2px solid transparent;
+    color:var(--darkGreen);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    margin-left:0.3em;
+  }
+  .links li {
+    padding: 10px;
+    margin-top:1em;
+    color:var(--darkGreen);
+    margin-bottom: 0;
+  }
+
+  .nav_info{
+    display:flex;
+    flex-direction: row;
+    margin-left:14em;   
+    justify-content: center;
+    align-items: center; 
+    padding-top:0.5em;
+    
+  }
+
+  .profile{
+    display:flex;
+    flex-direction: column;
+    padding:0 0.5em 0 0;
+    text-align: left;
+    
+  }
+  
+  .wishlist{
+    display:flex;
+    flex-direction: column;
+    padding:0 1.5em 0 1.4em;
+    text-align: left;
+    margin-top:-0.2em;
+    
+  }
+
+  .bag{
+    display:flex;
+    flex-direction: column;
+    padding:0 0.5em 0 0.4em;
+    text-align: left;
+  }
+  .info_img{
+    margin-left:0.6em;
+  }
+  .bag_img{
+    margin-left:0.3em;
+  }
+  .nav_info a{
+    border-bottom: 2px solid transparent;
+    color:var(--darkGreen);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .amount-container
+  {
+        position: absolute;
+        top: 1.2em;
+        right: 1.6em;
+        width: 1em;
+        height: 0.9em;
+        border-radius: 50%;
+        background-color:rgb(240, 99, 122);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+  }
+  .total-qty
+  {
+    color:white;
+    font-size:0.8em;
+    margin-bottom: 0;
+    font-weight:bold;
+  }
+  

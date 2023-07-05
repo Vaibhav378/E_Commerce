@@ -1,0 +1,133 @@
+import React from "react";
+
+const data = [
+  {
+    id: "recZkNf2kwmdBcqd0",
+    title: "Green Top",
+    price: 250,
+    image: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+    company: "Levis",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    category: "Casual",
+    shipping: true,
+    quantity: 1,
+    stock: 4,
+  },
+  {
+    id: "recEHmzvupvT8ZONH",
+    title: "Floral Top",
+    price: 600,
+    image: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+    company: "Vero Moda",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      category: "Office",
+    shipping: true,
+    quantity: 1,
+    stock: 6,
+  },
+  {
+    id: "rec5NBwZ5zCD9nfF0",
+    title: "Floral Dress",
+    price: 500,
+    image: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+    company: "Only",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    category: "Casual",
+    quantity: 1,
+    stock: 4,
+  },
+  {
+    id: "recd1jIVIEChmiwhe",
+    title: "Red Dress",
+    price: 700,
+    image: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+    company: "Vero Moda",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      category: "Office",
+    shipping: true,
+    quantity: 1,
+    stock: 4,
+  },
+  {
+    id: "recoM2MyHJGHLVi5l",
+    title: "Striped Sweater",
+    price: 800,
+    image: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+    company: "Only",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      category: "Office",
+    shipping: true,
+    quantity: 1,
+    stock: 4,
+  },
+  {
+    id: "recotY5Nh00DQFdkm",
+    title: "Yellow Trouser",
+    price: 200,
+    image: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+    company: "Only",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      category: "Casual",
+    shipping: true,
+    quantity: 1,
+    stock: 4,
+  },
+  {
+    id: "rec1Ntk7siEEW9ha1",
+    title: "White Top",
+    price: 400,
+    image: "https://i.ibb.co/qBcrsJg/white-vest.png",
+    company: "Only",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      category: "Casual",
+    shipping: true,
+    quantity: 1,
+    stock: 2,
+  },
+  {
+    id: "recNZ0koOqEmilmoz",
+    title: "Pink Sweatshirt",
+    price: 900,
+    image: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+    company: "Levis",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      category: "Office",
+    shipping: true,
+    quantity: 1,
+    stock: 3,
+  },
+  {
+    id: "recrfxv3EwpvJwvjq",
+    title: "Brown Coat",
+    price: 1000,
+    image: "https://i.ibb.co/M6hHc3F/brown-trench.png",
+    company: "Only",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      category: "Office",
+    shipping: true,
+    quantity: 1,
+    stock: 4,
+  },
+  {
+    id: "recoW8ecgjtKx2Sj2",
+    title: "Grey Jacket",
+    price: 2000,
+    image: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+    company: "Vero Moda",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, provident. Itaque totam neque, nesciunt consequatur error quasi ipsam accusamus facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      category: "Casual",
+    quantity: 1,
+    stock: 5,
+  },
+];
+export default data;

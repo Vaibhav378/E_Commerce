@@ -1,0 +1,178 @@
+button:focus {
+    outline: none;
+  }
+  
+  .pic {
+    /* background: url("../../images/ahmed-carter-tiWcNvpQF4E-unsplash.jpg")
+      no-repeat center center/cover; */
+    width: 60%;
+    height: 90vh;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 100%;
+    height: 90vh;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 20%;
+    margin-left:20%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid var(--darkGreen);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    /*transition in hover*/
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: var(--darkGreen);
+  }
+  
+  #radio0:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 20%;
+    margin-left:20%;
+    justify-content: center;
+    margin-top: 83.5vh;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid var(--darkGreen);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio0:checked ~ .navigation-auto .auto-btn1{
+    background: var(--darkGreen);
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn2{
+    background: var(--darkGreen);
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn3{
+    background:var(--darkGreen);
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn4{
+    background: var(--darkGreen);
+  }
+  .info {
+    display: flex;
+  }
+  
+  .content {
+    width: 40%;
+    padding: 50px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ecf0f1;
+  }
+  .content h1 {
+    font-size: 60px;
+    line-height: 1em;
+  }
+  .content p {
+    color: #17252a;
+  }
+  .head {
+    max-width: 80%;
+    line-height: 3em;
+    margin: 0;
+    text-align: left;
+    border-top: 3px solid #3aafa9;
+    padding-top: 20px;
+  }
+  .content button {
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--darkGreen);
+    border: none;
+    cursor: pointer;
+  }
+  .content button:hover {
+    color: #3aafa9;
+    background: transparent;
+    border: 2px solid #3aafa9;
+  }
+  
+  @media (max-width: 1119px) {
+    .info {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .content,
+    .pic {
+      width: 100%;
+    }
+  }
+  @media (max-width:400px)
+  {
+    .content h1{
+      font-size:35px;
+      line-height:3rem;
+      margin-bottom:1rem;
+    }
+    .content p{
+      line-height:2rem;
+    }
+  }

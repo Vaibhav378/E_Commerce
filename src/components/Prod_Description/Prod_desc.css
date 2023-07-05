@@ -1,0 +1,116 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mobile_img{
+  display: none;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-box {
+    display: flex;
+    max-width: 700px;
+    background-color: white;
+    margin: 1em 2em;
+    border-radius: 1.5em;
+    height:82vh
+}
+.desc_img{
+  width:50%;
+}
+.desktop_img {
+    display: block;
+    width: 900px;
+    height: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+    max-width: 100%;
+}
+
+.card_text {
+  text-align: left;
+  margin: 1.5em 2em;
+  width:50%;
+}
+
+.product_title {
+    font-size: var(--head);
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 0.5em 0 0.6em 0;
+    width: 80%;
+  }
+  .product {
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+    color: var(--gray);
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left:0.2em;
+  }
+  
+  .prod_description {
+    font-family: "Montserrat", sans-serif;
+    width: 96%;
+    font-size: var(--text);
+    color: var(--gray);
+    font-weight: 500;
+    margin-bottom: 1em;
+    padding:0.4em 0.6em 0.4em 0;
+    margin-left: 0.2em;
+
+  }
+  .price{
+    margin-left:0.1em;
+  }
+  
+  .green_text {
+    margin-right: 0.3em;
+    color: var(--darkGreen);
+  }
+  
+  .strike {
+    text-decoration: line-through;
+    align-self: center;
+  }
+
+.desc_update{
+    display:flex;
+    margin: 2em 0 1em 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+  
+  .desc_btn {
+    display: block;
+    margin: 2em 0 1em 0;
+    background-color: var(--darkGreen);
+    width: 100%;
+    padding: 1em 0;
+    color: var(--white);
+    border: 0;
+    border-radius: 0.7em;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .desc_btn:hover {
+    background-color: hsl(156, 24%, 24%);
+  }
+  
+  .btn_img {
+    margin-right: 1em;
+    max-width: 100%;
+  }
+  .btn_text {
+    color: var(--white);
+  }

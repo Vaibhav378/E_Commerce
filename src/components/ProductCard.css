@@ -1,0 +1,115 @@
+/* .wrapper{
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+  } */
+
+.container{
+    height:100%;
+    max-width:1200px;
+    margin:0 auto;     /*The browser selects a suitable margin to use. For example, in certain cases this value can be used to center an element. */
+    padding:20px;
+    /* overflow-y: auto; */
+  }
+
+
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.prod_card{
+    width:32%;
+    height:780px;
+    position:relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow:hidden;
+    background-color: white;
+}
+
+.prod_image{
+    height:60vh;
+    width:100%;
+    /* border-radius: 1.5em 0 0 1.5em; */
+    object-fit: cover;
+}
+
+.product_title{
+    font-size: var(--head);
+  font-weight: 700;
+  font-family: "Fraunces", serif;
+  line-height: 1;
+  margin: 0.6em 0.5em 0.7em 0.5em;
+  /* padding: 0.6em; */
+}
+
+.description{
+  font-family: "Montserrat", sans-serif;
+  width: 90%;
+  font-size: var(--text);
+  color: var(--gray);
+  font-weight: 500;
+  margin-bottom: 1em;
+  margin-left:0.2em;
+  padding:0.8em;
+}
+
+.green_text {
+    margin-right: 0.3em;
+    color: var(--darkGreen);
+  }
+  
+  .strike {
+    text-decoration: line-through;
+    align-self: center;
+  }
+  
+  .add-btn {
+    display: block;
+    margin: 2em 0 1em 0;
+    background-color: var(--darkGreen);
+    width: 100%;
+    padding: 1em 0;
+    color: var(--white);
+    border: 0;
+    border-radius: 0.7em;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: hsl(156, 24%, 24%);
+  }
+  
+  .add-btn_img {
+    margin-right: 1em;
+    max-width: 100%;
+  }
+  .add-btn_text {
+    color: var(--white);
+  }
+  .update_btns
+  { 
+    margin: 1.5em 0 1em 0;
+    width: 100%;
+    padding: 0.8em 0;
+  }
+  .prod_qty{
+    padding:1em;
+    text-align:center;
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+    color: var(--gray);
+    font-weight: 500;
+    width:90%;
+  }
+  .incdec_btn{
+    background-color: var(--darkGreen);
+    padding:1em;
+    color: var(--white);
+    border: 0;
+    border-radius: 0.7em;
+
+  }
