@@ -1,15 +1,20 @@
 .admin_product_title{
-    font-size: var(--head);
+    font-size: 3em;
   font-weight: 700;
   font-family: "Fraunces", serif;
   line-height: 1;
-  margin: 0.6em 0.5em 0.7em 0.5em;
+  margin: 0.8em 0.5em 0 0.5em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .admin_btn{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 .admin_add{
@@ -25,15 +30,19 @@
 }
 .imgContainer{
     margin-left: 0.8em;
+    margin-top: 6em;
 }
-/* .admin_text_area{
-    margin-left:7.8em;
-    margin-top:-3em;
 
-} */
 .admin_lbl{
     font-family: "Montserrat", sans-serif;
     font-size: var(--text);
   color: var(--gray);
   font-weight: 500;
+  /* margin-left: -2em ; */
 }
+/* for selecting the row component which is being rendered as div with class as row in the html */
+/* .row{
+margin-left:0px;
+} */
+
+

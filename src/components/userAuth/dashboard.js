@@ -71,7 +71,7 @@ export default function Dashboard() {
                 (data.email==="guptavaibhav378@gmail.com") && 
                 <Link to="/adminMain" style={{color:"black",textDecoration:"none"}}>
                 <div className="addressBookSec">
-              <div className="addressBookIcon"><i className="fa-solid fa-address-book"></i></div>
+              <div className="addressBookIcon" style={{marginLeft:"0.3em"}}><i class="fa-solid fa-clipboard"></i></div>
               <div className="addressBook">Your Products</div>
               <div className="swipeRightIcon"><KeyboardArrowRightIcon/></div>
               </div>

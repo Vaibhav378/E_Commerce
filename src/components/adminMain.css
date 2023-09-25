@@ -1,7 +1,6 @@
 .main_wrapper{
-    height:100vh;
+    
     overflow-x:hidden;
-    /* overflow-y:auto; */
   }
 
 .main_container{
@@ -9,7 +8,6 @@
     max-width:1200px;
     margin:0 auto;     /*The browser selects a suitable margin to use. For example, in certain cases this value can be used to center an element. */
     padding:20px;
-    overflow-y: auto;
   }
 
   .main_gallery{

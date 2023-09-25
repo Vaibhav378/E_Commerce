@@ -52,7 +52,7 @@
     color:var(--darkGreen);
     margin-bottom: 0;
   }
-
+   
   .nav_info{
     display:flex;
     flex-direction: row;
@@ -62,6 +62,8 @@
     padding-top:0.5em;
     
   }
+  
+  
 
   .profile{
     display:flex;
@@ -99,6 +101,10 @@
     font-weight: 500;
     text-decoration: none;
   }
+  .nav_info a:hover{
+    color:var(--darkGreen);
+    border-color: #3aafa9;
+  } 
   .amount-container
   {
         position: absolute;

@@ -11,7 +11,7 @@ export default function Home() {
   let firstFourPromos;
   if (promos.length !== 0) {
     //for slicing only first ten element from the promos..
-    firstFourPromos = promos.slice(4, 8);
+    firstFourPromos = promos.slice(5, 9);
   }
   const [counter, setCounter] = useState(0);
 

@@ -72,15 +72,15 @@ const Admin = () => {
   }
   return (
     <>
-      <div className="container">
-        <div className="admin_product_title head" style={{ textAlign: "center" }}><h1>Admin Page</h1></div>
+      <div className="admin_container">
+        <div className="admin_product_title "><div>Admin Page</div></div>
         <div className="details">
-          <Container>
-            <Row>
+          <Container style={{paddingTop:"0.5em",paddingBottom:"0"}}>
+            <Row style={{marginLeft:"-4em"}}>
               <Col sm={8}>
                 <Form>
                   <Form.Group as={Row} className="mb-3" controlId="formtitle">
-                    <Form.Label column sm="2" className="admin_lbl">
+                    <Form.Label column sm="3" className="admin_lbl">
                       Prod_Title
                     </Form.Label>
                     <Col sm="10">
@@ -92,7 +92,7 @@ const Admin = () => {
                     </Col>
                   </Form.Group>
                   <Form.Group as={Row} className="mb-3" controlId="formprice">
-                    <Form.Label column sm="2" className="admin_lbl">
+                    <Form.Label column sm="3" className="admin_lbl">
                       Prod_Price
                     </Form.Label>
                     <Col sm="10">
@@ -104,7 +104,7 @@ const Admin = () => {
                     </Col>
                   </Form.Group>
                   <Form.Group as={Row} className="mb-3" controlId="formqty">
-                    <Form.Label column sm="2"className="admin_lbl" >
+                    <Form.Label column sm="3" className="admin_lbl" >
                       Prod_Qty
                     </Form.Label>
                     <Col sm="10">
@@ -116,7 +116,7 @@ const Admin = () => {
                     </Col>
                   </Form.Group>
                   <Form.Group as={Row} className="mb-3" controlId="formcategory">
-                    <Form.Label column sm="2" className="admin_lbl">
+                    <Form.Label column sm="3" className="admin_lbl">
                       Prod_Catg
                     </Form.Label>
                     <Col sm="10">
@@ -128,13 +128,12 @@ const Admin = () => {
                     </Col>
                   </Form.Group>
                   <Form.Group className="mb-3 " as={Row}>
-                    <Form.Label column sm="2" className="admin_lbl">Product_Desc</Form.Label>
+                    <Form.Label column sm="3" className="admin_lbl">Product_Desc</Form.Label>
                     <Col sm="10">
                     <Form.Control as="textarea" rows={3}
                       name="description"
                       value={prod.description}
                       onChange={handleInputs}
-                      style={{marginTop:"0.6em"}}
                       />
                       </Col>
                   </Form.Group>
